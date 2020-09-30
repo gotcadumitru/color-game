@@ -1,0 +1,63 @@
+h1,h2,h3,h4,h5,h6,*,:before,:after{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #201f20;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+button{
+	border: none;
+	background-color: white;
+}
+button:focus{
+	outline: none;
+}
+.container{
+	width: 700px;
+}
+.score{
+	background-color: #3c76ae;
+}
+.score-text{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+.easy{
+	margin-right: 5px;
+}
+.navbar{
+	padding: 0;
+}
+.game-status{
+	font-family: 'Montserrat', sans-serif;
+}
+.bg-light{
+	background-color: white!important;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link{
+	color: #3c76ae;
+	font-weight: 700;
+	padding: 8px;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+	background-color: #3c76ae;
+	color: white;
+	transition: background .2s linear;
+}
+.color{
+	margin-top: 10px;
+}
+.col-4{
+	max-width: 30%;
+	height: 0;
+	margin: 1.66%;
+	cursor: pointer;
+	padding-top: 30%;
+	border-radius: 15%;
+	transition: background .2s linear;
+}
